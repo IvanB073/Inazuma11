@@ -1,0 +1,184 @@
+package inazuma;
+
+import java.awt.EventQueue;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import java.awt.Font;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class Inazuma11 {
+
+	JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Inazuma11 window = new Inazuma11();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public Inazuma11() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setTitle("Inazuma Eleven");
+		frame.setBounds(70, 10, 582, 800);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+
+		JButton btnNewButton = new JButton("Mark Evans");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				MarkEvans me = new MarkEvans();
+				me.MarkEvanss();
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton.setFocusPainted(false);
+		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnNewButton.setBounds(25, 100, 135, 32);
+		frame.getContentPane().add(btnNewButton);
+
+		JButton btnNewButton_1 = new JButton("Axel Blaze");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				AxelBlaze ab = new AxelBlaze();
+				ab.AxelBlazee();
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton_1.setFocusPainted(false);
+		btnNewButton_1.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnNewButton_1.setBounds(394, 100, 135, 32);
+		frame.getContentPane().add(btnNewButton_1);
+
+		JButton btnNewButton_2 = new JButton("Jude Sharp");
+		btnNewButton_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JudeSharp js = new JudeSharp();
+				js.JudeSharpp();
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton_2.setFocusPainted(false);
+		btnNewButton_2.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnNewButton_2.setBounds(50, 232, 135, 32);
+		frame.getContentPane().add(btnNewButton_2);
+
+		JButton btnNewButton_3 = new JButton("Byron Love");
+		btnNewButton_3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				ByronLove bl = new ByronLove();
+				bl.ByronLovee();
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton_3.setFocusPainted(false);
+		btnNewButton_3.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnNewButton_3.setBounds(354, 232, 135, 32);
+		frame.getContentPane().add(btnNewButton_3);
+
+		JButton btnNewButton_4 = new JButton("Shawn Froste");
+		btnNewButton_4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				ShawnFroste sf = new ShawnFroste();
+				sf.ShawnFrostee();
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton_4.setFocusPainted(false);
+		btnNewButton_4.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnNewButton_4.setBounds(75, 364, 135, 32);
+		frame.getContentPane().add(btnNewButton_4);
+
+		JButton btnNewButton_5 = new JButton("Xavier Foster");
+		btnNewButton_5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				XavierFoster xf = new XavierFoster();
+				xf.XavierFosterr();
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton_5.setFocusPainted(false);
+		btnNewButton_5.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnNewButton_5.setBounds(313, 364, 135, 32);
+		frame.getContentPane().add(btnNewButton_5);
+
+		JButton btnNewButton_6 = new JButton("Kevin Dragonfly");
+		btnNewButton_6.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				KevinDragonfly kd = new KevinDragonfly();
+				kd.KevinDragonflyy();
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton_6.setFocusPainted(false);
+		btnNewButton_6.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnNewButton_6.setBounds(50, 496, 135, 32);
+		frame.getContentPane().add(btnNewButton_6);
+
+		JButton btnNewButton_7 = new JButton("Nathan Swift");
+		btnNewButton_7.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				NathanSwift ns = new NathanSwift();
+				ns.NathanSwiftt();
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton_7.setFocusPainted(false);
+		btnNewButton_7.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnNewButton_7.setBounds(354, 496, 135, 32);
+		frame.getContentPane().add(btnNewButton_7);
+
+		JButton btnNewButton_8 = new JButton("Hurley Kane");
+		btnNewButton_8.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				HurleyKane hk = new HurleyKane();
+				hk.HurleyKanee();
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton_8.setFocusPainted(false);
+		btnNewButton_8.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnNewButton_8.setBounds(25, 628, 135, 32);
+		frame.getContentPane().add(btnNewButton_8);
+
+		JButton btnNewButton_9 = new JButton("Austin Hobbes");
+		btnNewButton_9.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				AustinHobbes ah = new AustinHobbes();
+				ah.AustinHobbess();
+				frame.setVisible(false);
+			}
+		});
+		btnNewButton_9.setFocusPainted(false);
+		btnNewButton_9.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		btnNewButton_9.setBounds(394, 628, 135, 32);
+		frame.getContentPane().add(btnNewButton_9);
+
+		JLabel label = new JLabel("");
+		label.setIcon(new ImageIcon("C:\\Users\\USER\\Downloads\\Inazuma11\\Inazuma11L.jpg"));
+		label.setBounds(0, 0, 569, 800);
+		frame.getContentPane().add(label);
+	}
+}
